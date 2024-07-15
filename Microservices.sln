@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{34A1F0F9-D1EA-4D10-BDC1-06AE2169AF48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{443AED5C-70A0-4649-B5B1-394206634B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Services.Catalog", "Services\Catalog\Microservices.Services.Catalog\Microservices.Services.Catalog.csproj", "{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1E68B893-3F4D-4535-BA1F-05721EC141D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Shared", "Shared\Microservices.Shared\Microservices.Shared.csproj", "{11B1DC27-0637-4F2B-B42C-6D15F04975F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B1DC27-0637-4F2B-B42C-6D15F04975F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B1DC27-0637-4F2B-B42C-6D15F04975F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B1DC27-0637-4F2B-B42C-6D15F04975F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B1DC27-0637-4F2B-B42C-6D15F04975F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {527DF41A-864C-413F-AD2E-21E427E2EC0B}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{443AED5C-70A0-4649-B5B1-394206634B13} = {34A1F0F9-D1EA-4D10-BDC1-06AE2169AF48}
+		{9C6E0981-801A-4BE0-ACC1-57CD02D4E1A6} = {443AED5C-70A0-4649-B5B1-394206634B13}
+		{11B1DC27-0637-4F2B-B42C-6D15F04975F0} = {1E68B893-3F4D-4535-BA1F-05721EC141D6}
+	EndGlobalSection
+EndGlobal
