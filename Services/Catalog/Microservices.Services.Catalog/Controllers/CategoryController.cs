@@ -2,6 +2,7 @@
 using Microservices.Services.Catalog.Models;
 using Microservices.Services.Catalog.Services;
 using Microservices.Shared.ControllerBases;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Microservices.Services.Catalog.Controllers
