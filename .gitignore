@@ -1,3 +1,14 @@
+# Firebase function files
+FirebaseFunction/
+
+# Ignore build directories
+**/bin/
+**/obj/
+
+# Ignore appsettings.json files
+**/appsettings.json
+**/appsettings.Development.json
+
 # globs
 Makefile.in
 *.userprefs
